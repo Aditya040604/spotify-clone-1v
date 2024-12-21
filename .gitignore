@@ -1,0 +1,24 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+*.log
+logs/
+
+# Build directories
+/dist/
+/build/
+
+# Environment variables
+.env
+
+# Cache and temporary files
+.cache/
+.temp/
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
