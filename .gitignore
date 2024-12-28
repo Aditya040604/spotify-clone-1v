@@ -11,6 +11,8 @@ logs/
 
 # Environment variables
 .env
+.env.local
+
 
 # Cache and temporary files
 .cache/
