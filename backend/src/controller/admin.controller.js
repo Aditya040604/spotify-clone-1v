@@ -1,4 +1,4 @@
-import  {Song as song} from "../modules/song.model.js"
+import  {Song} from "../modules/song.model.js"
 import {Album} from "../modules/album.model.js"
 import cloudinary from "../lib/cloudinary.js";
 
@@ -28,7 +28,7 @@ export const createSong = async (req, res, next) => {
         const audioUrl = await uploadToCloudinary(audioFile);
 		const imageUrl = await uploadToCloudinary(imageFile);
 
-        const song = new song({
+        const newSong = new Song({
             title,
             artist,
             audioUrl,
@@ -37,16 +37,16 @@ export const createSong = async (req, res, next) => {
             albumId: albumId || null
         })
 
-        await song.save()
+        await newSong.save()
         
         // if song belongs to an album , update the album's songs array
         if (albumId){
             await Album.findByIdAndUpdate(albumId, {
-                $push: {songs: song._id},
+                $push: {songs: newSong._id},
             })
         
         }
-        res.status(201).json(song)
+        res.status(201).json(newSong)
     } catch (error) {
         console.log("Error in creating song", error)
         next(error)

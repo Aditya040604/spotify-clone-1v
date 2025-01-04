@@ -19,7 +19,10 @@ export const  requireAdmin  = async (req,res,next) => {
         }
         next();
     } catch (error){
+        console.log("Authentication Error: ", error.message);
         next(error)
+        
+
 
     }
 }

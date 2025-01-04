@@ -16,28 +16,28 @@ const seedDatabase = async () => {
 		// First, create all songs
 		const createdSongs = await Song.insertMany([
 			{
-				title: "City Rain",
-				artist: "Urban Echo",
-				imageUrl: "/cover-images/7.jpg",
-				audioUrl: "/songs/7.mp3",
+				title: "Pushpa 2 The Rule",
+				artist: "DSP",
+				imageUrl: "/cover-images/pushpa2.jpg",
+				audioUrl: "/songs/Pushpa-Pushpa.mp3",
 				plays: Math.floor(Math.random() * 5000),
-				duration: 39, // 0:39
+				duration: 259, // 
 			},
 			{
-				title: "Neon Lights",
-				artist: "Night Runners",
-				imageUrl: "/cover-images/5.jpg",
-				audioUrl: "/songs/5.mp3",
+				title: "Dunki",
+				artist: "Pritam",
+				imageUrl: "/cover-images/dunki.jpg",
+				audioUrl: "/songs/omahi.mp3",
 				plays: Math.floor(Math.random() * 5000),
-				duration: 36, // 0:36
+				duration: 233, // 0:36
 			},
 			{
-				title: "Urban Jungle",
-				artist: "City Lights",
-				imageUrl: "/cover-images/15.jpg",
-				audioUrl: "/songs/15.mp3",
+				title: "Stree 2",
+				artist: "Sachin-Jigar",
+				imageUrl: "/cover-images/stree.jpg",
+				audioUrl: "/songs/khoobsorath.mp3",
 				plays: Math.floor(Math.random() * 5000),
-				duration: 36, // 0:36
+				duration: 244, // 0:36
 			},
 			{
 				title: "Neon Dreams",
@@ -132,18 +132,18 @@ const seedDatabase = async () => {
 		// Create albums with references to song IDs
 		const albums = [
 			{
-				title: "Urban Nights",
+				title: "Indian ChartBusters",
 				artist: "Various Artists",
-				imageUrl: "/albums/1.jpg",
+				imageUrl: "/albums/jathara.jpg",
 				releaseYear: 2024,
-				songs: createdSongs.slice(0, 4).map((song) => song._id),
+				songs: createdSongs.slice(0, 3).map((song) => song._id),
 			},
 			{
 				title: "Coastal Dreaming",
 				artist: "Various Artists",
 				imageUrl: "/albums/2.jpg",
 				releaseYear: 2024,
-				songs: createdSongs.slice(4, 8).map((song) => song._id),
+				songs: createdSongs.slice(3, 8).map((song) => song._id),
 			},
 			{
 				title: "Midnight Sessions",

@@ -6,53 +6,74 @@ config();
 
 const songs = [
 	{
-		title: "Stay With Me",
-		artist: "Sarah Mitchell",
-		imageUrl: "/cover-images/1.jpg",
-		audioUrl: "/songs/1.mp3",
-		duration: 46, // 0:46
+		title: "Kalki-Theme",
+		artist: "Jakes Bejoy",
+		imageUrl: "/cover-images/kalki.jpg",
+		audioUrl: "/songs/Kalki-Theme.mp3",
+		duration: 102, // 
 	},
 	{
-		title: "Midnight Drive",
-		artist: "The Wanderers",
-		imageUrl: "/cover-images/2.jpg",
-		audioUrl: "/songs/2.mp3",
-		duration: 41, // 0:41
+		title: "Dhammunte Pattukora",
+		artist: "Allu Arjun",
+		imageUrl: "/cover-images/pushpa-dhammunte.jpg",
+		audioUrl: "/songs/Dammunte-Pattukora.mp3",
+		duration: 93, // 0:41
 	},
 	{
-		title: "Lost in Tokyo",
-		artist: "Electric Dreams",
-		imageUrl: "/cover-images/3.jpg",
-		audioUrl: "/songs/3.mp3",
-		duration: 24, // 0:24
+		title: "Sooseki",
+		artist: "Shreya Goshal",
+		imageUrl: "/cover-images/sooseki.jpg",
+		audioUrl: "/songs/Sooseki.mp3",
+		duration: 264, // 0:24
 	},
 	{
-		title: "Summer Daze",
-		artist: "Coastal Kids",
-		imageUrl: "/cover-images/4.jpg",
-		audioUrl: "/songs/4.mp3",
-		duration: 24, // 0:24
+		title: "Naayaka",
+		artist: "DSP",
+		imageUrl: "/cover-images/kanguva.jpg",
+		audioUrl: "/songs/Naayaka.mp3",
+		duration: 192, // 0:24
 	},
 	{
-		title: "Neon Lights",
-		artist: "Night Runners",
-		imageUrl: "/cover-images/5.jpg",
-		audioUrl: "/songs/5.mp3",
-		duration: 36, // 0:36
+		title: "Thani Oruvan",
+		artist: "Bobo Shashi",
+		imageUrl: "/cover-images/thani-oruvan.jpg",
+		audioUrl: "/songs/Thani Oruvan.mp3",
+		duration: 239, // 0:36
 	},
 	{
-		title: "Mountain High",
-		artist: "The Wild Ones",
-		imageUrl: "/cover-images/6.jpg",
-		audioUrl: "/songs/6.mp3",
-		duration: 40, // 0:40
+		title: "Fear",
+		artist: "Anirudh",
+		imageUrl: "/cover-images/devara.jpg",
+		audioUrl: "/songs/Fear.mp3",
+		duration: 196, // 0:40
 	},
 	{
-		title: "City Rain",
-		artist: "Urban Echo",
-		imageUrl: "/cover-images/7.jpg",
-		audioUrl: "/songs/7.mp3",
-		duration: 39, // 0:39
+		title: "Bhaga-Bhaga",
+		artist: "Jakes Bejoy",
+		imageUrl: "/cover-images/saripodha.jpg",
+		audioUrl: "/songs/Bhaga-Bhaga.mp3",
+		duration: 176, // 0:39
+	},
+	{
+		title: "Raghunandhana",
+		artist: "Gowra Hari",
+		imageUrl: "/cover-images/hanuman.jpg",
+		audioUrl: "/songs/Raghunandhana.mp3",
+		duration: 156, // 0:28
+	},
+	{
+		title: "Jai Hanuman Theme",
+		artist: "Revanth",
+		imageUrl: "/cover-images/jai-hanuman.jpg",
+		audioUrl: "/songs/jai-hanuman.mp3",
+		duration: 100, // 0:28
+	},
+	{
+		title: "Ambarala Veedhilo",
+		artist: "Sindhuri Vishal",
+		imageUrl: "/cover-images/arm.jpg",
+		audioUrl: "/songs/ambarala-veedhilo.mp3",
+		duration: 261, // 0:30
 	},
 	{
 		title: "Desert Wind",
