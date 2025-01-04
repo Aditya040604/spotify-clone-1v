@@ -1,2 +1,2 @@
-This repository has complete backend with basic signup page in frontend
-6:04
+Spotify clone with few tweaks and additions.
+Hope you like it.
